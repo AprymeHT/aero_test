@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Ошибка</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <style>
+         body::before {
+         content: '';
+         position: fixed;
+         left: 0; right: 0;
+         top: 0; bottom: 0;
+         z-index: -1;
+         background-image: url(../img/1.jpg);
+         filter: blur(2px);
+         }
+		 .btn-primary {
+		 color: #fff;
+		 background-color: #a2b4c0;
+		 border-color: #a2b4c0;
+		 }
+      </style>
+   </head>
+   <html>
+      <body>
+         <div class="container">
+			<div class="jumbotron">
+			 <h1 class="display-4">Что-то пошло не так.</h1>
+			  <p class="lead">Информация не занесена в базу данных.</p>
+			  <hr class="my-4">
+			  <p class="lead">
+				<a class="btn btn-primary btn-lg" href="../index.html" role="button">Назад</a>
+			  </p>
+			</div>
+         </div>
+      </body>
+   </html>
